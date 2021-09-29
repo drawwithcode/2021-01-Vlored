@@ -39,9 +39,6 @@ function draw() {
   if (frameCount === 480) {
     image(img2, 0, 0, windowWidth, windowHeight);
   }
-  if (frameCount === 720) {
-    image(img, 0, 0, frameCount, windowHeight);
-  }
   image(img3, mouseX, mouseY, 150, 150);
   push();
   translate(x, y);
